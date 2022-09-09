@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "RapTapApp: Dark Nord (PS & TF)",
+        "label": "RapTapApp: Darker Nord (PS & TF)",
         "uiTheme": "vs-dark",
-        "path": "./themes/RapTapApp Dark Nord (PS & TF)-color-theme.json"
+        "path": "./themes/RapTapApp Darker Nord (PS & TF)-color-theme.json"
       }
     ]
   }
