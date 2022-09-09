@@ -1,6 +1,6 @@
 {
-  "name": "raptapapp-darknord",
-  "displayName": "RapTapApp-DarkNord",
+  "name": "raptapapp-darkernord",
+  "displayName": "RapTapApp-DarkerNord",
   "description": "Colortheme based on the Nord theme, but darker and with semantic highlightinhting  for  PowerShell & Terraform ",
   "version": "0.0.1",
   "engines": {
