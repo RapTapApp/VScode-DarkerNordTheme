@@ -2,327 +2,330 @@
   "name": "RapTapApp: Darker Nord (PS & TF)",
   "colors": {
     // Main
-    "focusBorder": "#3b4252",
-    "foreground": "#d8dee9",
+    "focusBorder": "#3b4252", // nord-1: Polar: Dark Grey
+    "foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "descriptionForeground": "#d8dee9e6",
-    "errorForeground": "#bf616a",
+    "errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
     // ActivityBar
     "activityBar.activeBackground": "#88c0d070",
-    "activityBar.activeBorder": "#88c0d0",
-    "activityBar.background": "#3B4252",
-    "activityBar.border": "#2E3440",
+    "activityBar.activeBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "activityBar.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "activityBar.border": "#2E3440", // nord-0: Polar: Background
     "activityBar.dropBorder": "#16181d",
-    "activityBar.foreground": "#d8dee9",
+    "activityBar.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "activityBar.inactiveForeground": "#D8DEE980",
-    "activityBarBadge.background": "#88c0d0",
-    "activityBarBadge.foreground": "#3B4252",
+    "activityBarBadge.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "activityBarBadge.foreground": "#3b4252", // nord-1: Polar: Dark Grey
     // Controls
-    "badge.background": "#88c0d0",
-    "badge.foreground": "#3B4252",
-    "button.background": "#88c0d0D0",
-    "button.foreground": "#3B4252",
-    "button.hoverBackground": "#88c0d0",
-    "button.secondaryBackground": "#3B4252",
-    "button.secondaryForeground": "#d8dee9",
-    "button.secondaryHoverBackground": "#4c566a",
+    "badge.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "badge.foreground": "#3b4252", // nord-1: Polar: Dark Grey
+    "button.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "button.foreground": "#3b4252", // nord-1: Polar: Dark Grey
+    "button.hoverBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "button.secondaryBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "button.secondaryForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "button.secondaryHoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "button.separator": "#d8dee950",
     "button.border": "#d8dee9d0",
-    "charts.blue": "#81a1c1",
-    "charts.foreground": "#d8dee9",
-    "charts.green": "#a3be8c",
-    "charts.lines": "#88c0d0",
-    "charts.orange": "#d08770",
-    "charts.purple": "#b48ead",
-    "charts.red": "#bf616a",
-    "charts.yellow": "#ebcb8b",
-    "dropdown.background": "#3b4252",
-    "dropdown.listBackground": "#2E3440",
-    "dropdown.border": "#3b4252",
-    "dropdown.foreground": "#d8dee9",
+    "charts.blue": "#81A1C1", // nord-9: Frost: Bright Blue
+    "charts.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "charts.green": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "charts.lines": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "charts.orange": "#D08770", // nord-C: Aurora: Bright Orange
+    "charts.purple": "#B48EAD", // nord-D: Aurora: Bright Purple
+    "charts.red": "#BF616A", // nord-B: Aurora: Bright Red
+    "charts.yellow": "#EBCB8B", // nord-D: Aurora: Bright Yellow
+    "dropdown.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "dropdown.listBackground": "#2E3440", // nord-0: Polar: Background
+    "dropdown.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "dropdown.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     // Debug
-    "debugConsole.errorForeground": "#bf616a",
-    "debugConsole.infoForeground": "#88c0d0",
+    "debugConsole.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
+    "debugConsole.infoForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "debugConsole.sourceForeground": "#616e88",
-    "debugConsole.warningForeground": "#d08770",
-    "debugConsoleInputIcon.foreground": "#81a1c1",
-    "debugExceptionWidget.background": "#4c566a",
-    "debugExceptionWidget.border": "#2e3440",
-    "debugToolBar.background": "#434C5E",
-    "debugToolBar.border": "#3b4252",
+    "debugConsole.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
+    "debugConsoleInputIcon.foreground": "#81A1C1", // nord-9: Frost: Bright Blue
+    "debugExceptionWidget.background": "#4C566A", // nord-3: Polar: Bright Grey
+    "debugExceptionWidget.border": "#2E3440", // nord-0: Polar: Background
+    "debugToolBar.background": "#434C5E", // nord-2: Polar: Grey
+    "debugToolBar.border": "#3b4252", // nord-1: Polar: Dark Grey
     // Diff
     "diffEditor.border": "#D8DEE980",
-    "diffEditor.diagonalFill": "#BF616A80",
-    "diffEditor.insertedLineBackground": "#A3BE8C40",
-    "diffEditor.insertedTextBackground": "#A3BE8C80",
-    "diffEditor.removedLineBackground": "#BF616A80",
-    "diffEditor.removedTextBackground": "#BF616A80",
-    "diffEditorGutter.insertedLineBackground": "#A3BE8C80",
-    "diffEditorGutter.removedLineBackground": "#BF616A80",
-    "diffEditorOverview.insertedForeground": "#A3BE8CC0",
-    "diffEditorOverview.removedForeground": "#BF616Ac0",
+    "diffEditor.diagonalFill": "#3F2023", // dkst-B: Aurora: Darkest Red
+    "diffEditor.insertedLineBackground": "#363F2F", // dkst-E: Aurora: Darkest Green
+    "diffEditor.insertedTextBackground": "#6D7F5E", // drkr-F: Aurora: Darker Green
+    "diffEditor.removedLineBackground": "#3F2023", // dkst-B: Aurora: Darkest Red
+    "diffEditor.removedTextBackground": "#7F4147", // drkr-B: Aurora: Darker Red
+    "diffEditorGutter.insertedLineBackground": "#363F2F", // dkst-E: Aurora: Darkest Green
+    "diffEditorGutter.removedLineBackground": "#3F2023", // dkst-B: Aurora: Darkest Red
+    "diffEditorOverview.insertedForeground": "#6D7F5E", // drkr-F: Aurora: Darker Green
+    "diffEditorOverview.removedForeground": "#7F4147", // drkr-B: Aurora: Darker Red
     // Editor
     "editor.background": "#16181d",
     "editor.findMatchBackground": "#88c0d066",
     "editor.findMatchHighlightBackground": "#88c0d033",
     "editor.findRangeHighlightBackground": "#88c0d033",
     "editor.focusedStackFrameHighlightBackground": "#5e81ac",
-    "editor.foreground": "#d8dee9",
-    "editor.hoverHighlightBackground": "#3b4252",
-    "editor.inactiveSelectionBackground": "#3B4252",
-    "editor.inlineValuesBackground": "#4c566a",
-    "editor.inlineValuesForeground": "#eceff4",
-    "editor.lineHighlightBackground": "#3b4252",
-    "editor.lineHighlightBorder": "#3b4252",
+    "editor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editor.hoverHighlightBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "editor.inactiveSelectionBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "editor.inlineValuesBackground": "#4C566A", // nord-3: Polar: Bright Grey
+    "editor.inlineValuesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "editor.lineHighlightBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "editor.lineHighlightBorder": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.rangeHighlightBackground": "#434c5e52",
-    "editor.selectionBackground": "#3B4252",
+    "editor.selectionBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.selectionHighlightBackground": "#434c5ecc",
-    "editor.stackFrameHighlightBackground": "#EBCB8B80",
+    "editor.stackFrameHighlightBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     "editor.wordHighlightBackground": "#81a1c166",
     "editor.wordHighlightStrongBackground": "#81a1c199",
-    "editorStickyScrollHover.background": "#4C566A",
-    "editorStickyScroll.background": "#3B4252",
-    "editorBracketHighlight.foreground1": "#B48EADF0",
-    "editorBracketHighlight.foreground2": "#81A1C1E0",
-    "editorBracketHighlight.foreground3": "#A3BE8CD0",
-    "editorBracketHighlight.foreground4": "#EBCB8BC0",
-    "editorBracketHighlight.foreground5": "#D08770B0",
-    "editorBracketHighlight.foreground6": "#BF616AA0",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#bf616a",
+    "editorStickyScrollHover.background": "#4C566A", // nord-3: Polar: Bright Grey
+    "editorStickyScroll.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorBracketHighlight.foreground1": "#B48EAD", // nord-D: Aurora: Bright Purple
+    "editorBracketHighlight.foreground2": "#81A1C1", // nord-9: Frost: Bright Blue
+    "editorBracketHighlight.foreground3": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "editorBracketHighlight.foreground4": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    "editorBracketHighlight.foreground5": "#D08770", // dkst-C: Aurora: Darkest Orange
+    "editorBracketHighlight.foreground6": "#7F4147", // drkr-B: Aurora: Darker Red
+    "editorBracketHighlight.unexpectedBracket.foreground": "#BF616A", // nord-B: Aurora: Bright Red
     "editorBracketMatch.background": "#2e344000",
-    "editorBracketMatch.border": "#88c0d0",
+    "editorBracketMatch.border": "#88C0D0", // nord-8: Frost: Bright Highlight
     "editorCodeLens.foreground": "#5E81AC",
-    "editorCursor.foreground": "#d8dee9",
+    "editorCursor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "editorError.border": "#bf616a00",
-    "editorError.foreground": "#bf616a",
+    "editorError.foreground": "#BF616A", // nord-B: Aurora: Bright Red
     "editorGroup.border": "#3b425201",
     "editorGroup.dropBackground": "#3b425299",
     "editorGroupHeader.border": "#3b425200",
-    "editorGroupHeader.noTabsBackground": "#2e3440",
-    "editorGroupHeader.tabsBackground": "#2e3440",
+    "editorGroupHeader.noTabsBackground": "#2E3440", // nord-0: Polar: Background
+    "editorGroupHeader.tabsBackground": "#2E3440", // nord-0: Polar: Background
     "editorGroupHeader.tabsBorder": "#3b425200",
-    "editorGutter.addedBackground": "#a3be8cC0",
-    "editorGutter.background": "#2e3440",
-    "editorGutter.deletedBackground": "#bf616aC0",
-    "editorGutter.modifiedBackground": "#ebcb8bC0",
+    "editorGutter.addedBackground": "#6D7F5E", // drkr-F: Aurora: Darker Green
+    "editorGutter.background": "#2E3440", // nord-0: Polar: Background
+    "editorGutter.deletedBackground": "#7F4147", // drkr-B: Aurora: Darker Red
+    "editorGutter.modifiedBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     "editorHint.border": "#ebcb8b00",
-    "editorHint.foreground": "#ebcb8bc0",
-    "editorHoverWidget.background": "#3b4252",
-    "editorHoverWidget.border": "#3b4252",
-    "editorIndentGuide.activeBackground": "#4c566a",
+    "editorHint.foreground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    "editorHoverWidget.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorHoverWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorIndentGuide.activeBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "editorIndentGuide.background": "#434c5eb3",
-    "editorInlayHint.background": "#434c5e",
-    "editorInlayHint.foreground": "#d8dee9",
-    "editorLineNumber.activeForeground": "#d8dee9",
-    "editorLineNumber.foreground": "#4c566a",
-    "editorLink.activeForeground": "#88c0d0",
+    "editorInlayHint.background": "#434C5E", // nord-2: Polar: Grey
+    "editorInlayHint.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editorLineNumber.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editorLineNumber.foreground": "#4C566A", // nord-3: Polar: Bright Grey
+    "editorLink.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "editorMarkerNavigation.background": "#5e81acc0",
-    "editorMarkerNavigationError.background": "#bf616ac0",
+    "editorMarkerNavigationError.background": "#7F4147", // drkr-B: Aurora: Darker Red
     "editorMarkerNavigationWarning.background": "#D08770c0",
-    "editorOverviewRuler.addedForeground": "#a3be8c",
-    "editorOverviewRuler.border": "#3b4252",
-    "editorOverviewRuler.currentContentForeground": "#3b4252",
-    "editorOverviewRuler.deletedForeground": "#bf616a",
-    "editorOverviewRuler.errorForeground": "#bf616a",
+    "editorOverviewRuler.addedForeground": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "editorOverviewRuler.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorOverviewRuler.currentContentForeground": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorOverviewRuler.deletedForeground": "#BF616A", // nord-B: Aurora: Bright Red
+    "editorOverviewRuler.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
     "editorOverviewRuler.findMatchForeground": "#88c0d066",
-    "editorOverviewRuler.incomingContentForeground": "#3b4252",
-    "editorOverviewRuler.infoForeground": "#81a1c1",
-    "editorOverviewRuler.modifiedForeground": "#ebcb8b",
+    "editorOverviewRuler.incomingContentForeground": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorOverviewRuler.infoForeground": "#81A1C1", // nord-9: Frost: Bright Blue
+    "editorOverviewRuler.modifiedForeground": "#EBCB8B", // nord-D: Aurora: Bright Yellow
     "editorOverviewRuler.rangeHighlightForeground": "#88c0d066",
     "editorOverviewRuler.selectionHighlightForeground": "#88c0d066",
-    "editorOverviewRuler.warningForeground": "#D08770",
+    "editorOverviewRuler.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
     "editorOverviewRuler.wordHighlightForeground": "#88c0d066",
     "editorOverviewRuler.wordHighlightStrongForeground": "#88c0d066",
-    "editorRuler.foreground": "#434c5e",
-    "editorSuggestWidget.background": "#2e3440",
-    "editorSuggestWidget.border": "#3b4252",
-    "editorSuggestWidget.focusHighlightForeground": "#88c0d0",
-    "editorSuggestWidget.foreground": "#d8dee9",
-    "editorSuggestWidget.highlightForeground": "#88c0d0",
-    "editorSuggestWidget.selectedBackground": "#434c5e",
-    "editorSuggestWidget.selectedForeground": "#d8dee9",
+    "editorRuler.foreground": "#434C5E", // nord-2: Polar: Grey
+    "editorSuggestWidget.background": "#2E3440", // nord-0: Polar: Background
+    "editorSuggestWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "editorSuggestWidget.focusHighlightForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "editorSuggestWidget.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editorSuggestWidget.highlightForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "editorSuggestWidget.selectedBackground": "#434C5E", // nord-2: Polar: Grey
+    "editorSuggestWidget.selectedForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "editorWarning.border": "#ebcb8b00",
-    "editorWarning.foreground": "#D08770",
+    "editorWarning.foreground": "#D08770", // nord-C: Aurora: Bright Orange
     "editorWhitespace.foreground": "#4c566ab3",
-    "editorWidget.background": "#2e3440",
-    "editorWidget.border": "#3b4252",
-    "extensionButton.prominentBackground": "#434c5e",
-    "extensionButton.prominentForeground": "#d8dee9",
-    "extensionButton.prominentHoverBackground": "#4c566a",
+    "editorWidget.background": "#2E3440", // nord-0: Polar: Background
+    "editorWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "extensionButton.prominentBackground": "#434C5E", // nord-2: Polar: Grey
+    "extensionButton.prominentForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "extensionButton.prominentHoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "gitDecoration.conflictingResourceForeground": "#5e81ac",
-    "gitDecoration.deletedResourceForeground": "#bf616a",
+    "gitDecoration.deletedResourceForeground": "#BF616A", // nord-B: Aurora: Bright Red
     "gitDecoration.ignoredResourceForeground": "#d8dee966",
-    "gitDecoration.modifiedResourceForeground": "#ebcb8b",
-    "gitDecoration.stageDeletedResourceForeground": "#bf616a",
-    "gitDecoration.stageModifiedResourceForeground": "#ebcb8b",
-    "gitDecoration.submoduleResourceForeground": "#8fbcbb",
-    "gitDecoration.untrackedResourceForeground": "#a3be8c",
-    "input.background": "#3b4252",
-    "input.border": "#3b4252",
-    "input.foreground": "#d8dee9",
+    "gitDecoration.modifiedResourceForeground": "#EBCB8B", // nord-D: Aurora: Bright Yellow
+    "gitDecoration.stageDeletedResourceForeground": "#BF616A", // nord-B: Aurora: Bright Red
+    "gitDecoration.stageModifiedResourceForeground": "#EBCB8B", // nord-D: Aurora: Bright Yellow
+    "gitDecoration.submoduleResourceForeground": "#8FBCBB", // nord-7: Frost: Bright Cyan
+    "gitDecoration.untrackedResourceForeground": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "input.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "input.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "input.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "input.placeholderForeground": "#d8dee999",
     "inputOption.activeBackground": "#5e81ac",
     "inputOption.activeBorder": "#5e81ac",
-    "inputOption.activeForeground": "#eceff4",
-    "inputValidation.errorBackground": "#bf616a",
-    "inputValidation.errorBorder": "#bf616a",
-    "inputValidation.infoBackground": "#81a1c1",
-    "inputValidation.infoBorder": "#81a1c1",
-    "inputValidation.warningBackground": "#d08770",
-    "inputValidation.warningBorder": "#d08770",
-    "keybindingLabel.background": "#4c566a",
-    "keybindingLabel.border": "#4c566a",
-    "keybindingLabel.bottomBorder": "#4c566a",
-    "keybindingLabel.foreground": "#d8dee9",
+    "inputOption.activeForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "inputValidation.errorBackground": "#BF616A", // nord-B: Aurora: Bright Red
+    "inputValidation.errorBorder": "#BF616A", // nord-B: Aurora: Bright Red
+    "inputValidation.infoBackground": "#81A1C1", // nord-9: Frost: Bright Blue
+    "inputValidation.infoBorder": "#81A1C1", // nord-9: Frost: Bright Blue
+    "inputValidation.warningBackground": "#D08770", // nord-C: Aurora: Bright Orange
+    "inputValidation.warningBorder": "#D08770", // nord-C: Aurora: Bright Orange
+    "keybindingLabel.background": "#4C566A", // nord-3: Polar: Bright Grey
+    "keybindingLabel.border": "#4C566A", // nord-3: Polar: Bright Grey
+    "keybindingLabel.bottomBorder": "#4C566A", // nord-3: Polar: Bright Grey
+    "keybindingLabel.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "list.activeSelectionBackground": "#88c0d080",
-    "list.activeSelectionForeground": "#D8DEE9",
+    "list.activeSelectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "list.dropBackground": "#88c0d099",
-    "list.errorForeground": "#bf616a",
+    "list.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
     "list.focusBackground": "#88c0d099",
-    "list.focusForeground": "#d8dee9",
-    "list.focusHighlightForeground": "#eceff4",
-    "list.highlightForeground": "#88c0d0",
-    "list.hoverBackground": "#4C566A",
-    "list.hoverForeground": "#eceff4",
+    "list.focusForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "list.focusHighlightForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "list.highlightForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "list.hoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
+    "list.hoverForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
     "list.inactiveFocusBackground": "#434c5ecc",
-    "list.inactiveSelectionBackground": "#434c5e",
-    "list.inactiveSelectionForeground": "#d8dee9",
-    "list.warningForeground": "#D08770",
+    "list.inactiveSelectionBackground": "#434C5E", // nord-2: Polar: Grey
+    "list.inactiveSelectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "list.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
     "merge.border": "#3b425200",
-    "merge.currentContentBackground": "#EBCB8B80",
-    "merge.currentHeaderBackground": "#EBCB8BC0",
-    "merge.incomingContentBackground": "#B48EAD80",
-    "merge.incomingHeaderBackground": "#B48EADC0",
-    "minimap.background": "#2e3440",
-    "minimap.errorHighlight": "#bf616acc",
-    "minimap.findMatchHighlight": "#88c0d0",
+    "merge.currentContentBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    "merge.currentHeaderBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    "merge.incomingContentBackground": "#775E73", // drkr-F: Aurora: Darker Purple
+    "merge.incomingHeaderBackground": "#775E73", // drkr-F: Aurora: Darker Purple
+    "minimap.background": "#2E3440", // nord-0: Polar: Background
+    "minimap.errorHighlight": "#BF616A", // nord-B: Aurora: Bright Red
+    "minimap.findMatchHighlight": "#88C0D0", // nord-8: Frost: Bright Highlight
     "minimap.selectionHighlight": "#88c0d0cc",
     "minimap.warningHighlight": "#D08770cc",
-    "minimapGutter.addedBackground": "#a3be8c",
-    "minimapGutter.deletedBackground": "#bf616a",
-    "minimapGutter.modifiedBackground": "#ebcb8b",
+    "minimapGutter.addedBackground": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "minimapGutter.deletedBackground": "#BF616A", // nord-B: Aurora: Bright Red
+    "minimapGutter.modifiedBackground": "#EBCB8B", // nord-D: Aurora: Bright Yellow
     "minimapSlider.activeBackground": "#434c5eaa",
     "minimapSlider.background": "#434c5e99",
     "minimapSlider.hoverBackground": "#434c5eaa",
     "notificationCenter.border": "#3b425200",
-    "notificationCenterHeader.background": "#2e3440",
-    "notificationCenterHeader.foreground": "#88c0d0",
-    "notificationLink.foreground": "#88c0d0",
-    "notifications.background": "#3b4252",
-    "notifications.border": "#2e3440",
-    "notifications.foreground": "#d8dee9",
+    "notificationCenterHeader.background": "#2E3440", // nord-0: Polar: Background
+    "notificationCenterHeader.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "notificationLink.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "notifications.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "notifications.border": "#2E3440", // nord-0: Polar: Background
+    "notifications.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "notificationToast.border": "#3b425200",
-    "panel.background": "#2e3440",
-    "panel.border": "#3b4252",
+    "panel.background": "#2E3440", // nord-0: Polar: Background
+    "panel.border": "#3b4252", // nord-1: Polar: Dark Grey
     "panelTitle.activeBorder": "#88c0d000",
-    "panelTitle.activeForeground": "#88c0d0",
-    "panelTitle.inactiveForeground": "#d8dee9",
-    "peekView.border": "#4c566a",
-    "peekViewEditor.background": "#2e3440",
+    "panelTitle.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "panelTitle.inactiveForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "peekView.border": "#4C566A", // nord-3: Polar: Bright Grey
+    "peekViewEditor.background": "#2E3440", // nord-0: Polar: Background
     "peekViewEditor.matchHighlightBackground": "#88c0d04d",
-    "peekViewEditorGutter.background": "#2e3440",
-    "peekViewResult.background": "#2e3440",
-    "peekViewResult.fileForeground": "#88c0d0",
+    "peekViewEditorGutter.background": "#2E3440", // nord-0: Polar: Background
+    "peekViewResult.background": "#2E3440", // nord-0: Polar: Background
+    "peekViewResult.fileForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "peekViewResult.lineForeground": "#d8dee966",
     "peekViewResult.matchHighlightBackground": "#88c0d0cc",
-    "peekViewResult.selectionBackground": "#434c5e",
-    "peekViewResult.selectionForeground": "#d8dee9",
-    "peekViewTitle.background": "#3b4252",
-    "peekViewTitleDescription.foreground": "#d8dee9",
-    "peekViewTitleLabel.foreground": "#88c0d0",
-    "pickerGroup.border": "#3b4252",
-    "pickerGroup.foreground": "#88c0d0",
-    "progressBar.background": "#88c0d0",
-    "quickInputList.focusBackground": "#88c0d0",
-    "quickInputList.focusForeground": "#2e3440",
-    "sash.hoverBorder": "#88c0d0",
+    "peekViewResult.selectionBackground": "#434C5E", // nord-2: Polar: Grey
+    "peekViewResult.selectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "peekViewTitle.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "peekViewTitleDescription.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "peekViewTitleLabel.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "pickerGroup.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "pickerGroup.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "progressBar.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "quickInputList.focusBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "quickInputList.focusForeground": "#2E3440", // nord-0: Polar: Background
+    "sash.hoverBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
     "scrollbarSlider.activeBackground": "#434c5eaa",
     "scrollbarSlider.background": "#434c5e99",
     "scrollbarSlider.hoverBackground": "#434c5eaa",
     "selection.background": "#88c0d099",
-    "sideBar.background": "#2e3440",
-    "sideBar.border": "#3b4252",
-    "sideBar.foreground": "#d8dee9",
-    "sideBarSectionHeader.background": "#3b4252",
-    "sideBarSectionHeader.foreground": "#d8dee9",
-    "sideBarTitle.foreground": "#d8dee9",
+    "sideBar.background": "#2E3440", // nord-0: Polar: Background
+    "sideBar.border": "#3b4252", // nord-1: Polar: Dark Grey
+    "sideBar.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "sideBarSectionHeader.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "sideBarSectionHeader.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "sideBarTitle.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "statusBar.background": "#6a758f",
     "statusBar.border": "#3b425200",
     "statusBar.debuggingBackground": "#EBCB8BA0",
-    "statusBar.debuggingForeground": "#d8dee9",
-    "statusBar.foreground": "#d8dee9",
-    "statusBar.noFolderBackground": "#3b4252",
-    "statusBar.noFolderForeground": "#d8dee9",
+    "statusBar.debuggingForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "statusBar.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "statusBar.noFolderBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "statusBar.noFolderForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "statusBarItem.activeBackground": "#ECEFF440",
-    "statusBarItem.errorBackground": "#3b4252",
-    "statusBarItem.errorForeground": "#bf616a",
+    "statusBarItem.errorBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "statusBarItem.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
     "statusBarItem.hoverBackground": "#ECEFF440",
-    "statusBarItem.prominentBackground": "#3b4252",
-    "statusBarItem.prominentHoverBackground": "#434c5e",
-    "statusBarItem.warningBackground": "#D08770",
-    "statusBarItem.warningForeground": "#2e3440",
+    "statusBarItem.prominentBackground": "#3b4252", // nord-1: Polar: Dark Grey
+    "statusBarItem.prominentHoverBackground": "#434C5E", // nord-2: Polar: Grey
+    "statusBarItem.warningBackground": "#D08770", // nord-C: Aurora: Bright Orange
+    "statusBarItem.warningForeground": "#2E3440", // nord-0: Polar: Background
     "statusBarItem.compactHoverBackground": "#ECEFF440",
     "statusBarItem.prominentForeground": "#ECEFF440",
-    "statusBarItem.remoteBackground": "#A3BE8C",
-    "statusBarItem.remoteForeground": "#3B4252",
+    "statusBarItem.remoteBackground": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "statusBarItem.remoteForeground": "#3b4252", // nord-1: Polar: Dark Grey
     "statusBarItem.settingsProfilesBackground": "#ECEFF440",
-    "statusBarItem.settingsProfilesForeground": "#ECEFF4",
-    "tab.activeBackground": "#3b4252",
+    "statusBarItem.settingsProfilesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "tab.activeBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "tab.activeBorder": "#88c0d000",
     "tab.activeBorderTop": "#88c0d000",
-    "tab.activeForeground": "#d8dee9",
+    "tab.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "tab.border": "#3b425200",
-    "tab.hoverBackground": "#4C566A",
+    "tab.hoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "tab.hoverBorder": "#88c0d000",
-    "tab.hoverForeground": "#ECEFF4",
-    "tab.inactiveBackground": "#2e3440",
+    "tab.hoverForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "tab.inactiveBackground": "#2E3440", // nord-0: Polar: Background
     "tab.inactiveForeground": "#d8dee966",
-    "tab.lastPinnedBorder": "#4c566a",
+    "tab.lastPinnedBorder": "#4C566A", // nord-3: Polar: Bright Grey
     "tab.unfocusedActiveBorder": "#88c0d000",
     "tab.unfocusedActiveBorderTop": "#88c0d000",
     "tab.unfocusedActiveForeground": "#d8dee999",
     "tab.unfocusedHoverBackground": "#3b4252b3",
     "tab.unfocusedHoverBorder": "#88c0d000",
     "tab.unfocusedInactiveForeground": "#d8dee966",
-    "terminal.ansiBlack": "#3b4252",
-    "terminal.ansiBlue": "#81a1c1",
-    "terminal.ansiBrightBlack": "#4c566a",
-    "terminal.ansiBrightBlue": "#81a1c1",
-    "terminal.ansiBrightCyan": "#8fbcbb",
-    "terminal.ansiBrightGreen": "#a3be8c",
-    "terminal.ansiBrightMagenta": "#b48ead",
-    "terminal.ansiBrightRed": "#bf616a",
-    "terminal.ansiBrightWhite": "#eceff4",
-    "terminal.ansiBrightYellow": "#ebcb8b",
-    "terminal.ansiCyan": "#88c0d0C0",
-    "terminal.ansiGreen": "#a3be8cC0",
-    "terminal.ansiMagenta": "#b48eadC0",
-    "terminal.ansiRed": "#bf616aC0",
-    "terminal.ansiWhite": "#e5e9f0C0",
-    "terminal.ansiYellow": "#ebcb8bC0",
+    // terminal: Ansi-bright
+    "terminal.ansiBrightBlack": "#4C566A", // nord-3: Polar: Bright Grey
+    "terminal.ansiBrightBlue": "#81A1C1", // nord-9: Frost: Bright Blue
+    "terminal.ansiBrightCyan": "#8FBCBB", // nord-7: Frost: Bright Cyan
+    "terminal.ansiBrightGreen": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "terminal.ansiBrightMagenta": "#B48EAD", // nord-D: Aurora: Bright Purple
+    "terminal.ansiBrightRed": "#BF616A", // nord-B: Aurora: Bright Red
+    "terminal.ansiBrightWhite": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "terminal.ansiBrightYellow": "#EBCB8B", // nord-D: Aurora: Bright Yellow
+    // terminal: Ansi-dark
+    "terminal.ansiBlack": "#3b4252", // nord-1: Polar: Dark Grey
+    "terminal.ansiBlue": "#556A7F", // drkr-9: Frost: Darker Blue
+    "terminal.ansiCyan": "#607C7B", // drkr-7: Frost: Darker Cyan
+    "terminal.ansiGreen": "#6D7F5E", // drkr-F: Aurora: Darker Green
+    "terminal.ansiMagenta": "#775E73", // drkr-F: Aurora: Darker Purple
+    "terminal.ansiRed": "#7F4147", // drkr-B: Aurora: Darker Red
+    "terminal.ansiWhite": "#9EA0A3", // drkr-6: Snow Storm: Bright White
+    "terminal.ansiYellow": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    // terminal:
     "terminal.background": "#16181d",
-    "terminal.border": "#4C566A",
-    "terminal.dropBackground": "#88c0d0C0",
-    "terminal.foreground": "#d8dee9",
-    "terminal.tab.activeBorder": "#88c0d0",
+    "terminal.border": "#4C566A", // nord-3: Polar: Bright Grey
+    "terminal.dropBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "terminal.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "terminal.tab.activeBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
     "terminalCommandDecoration.defaultBackground": "#16181d",
-    "terminalCommandDecoration.errorBackground": "#CA6066",
-    "terminalCommandDecoration.successBackground": "#98B082",
+    "terminalCommandDecoration.errorBackground": "#BF616A", // nord-B: Aurora: Bright Red
+    "terminalCommandDecoration.successBackground": "#A3BE8C", // nord-E: Aurora: Bright Green
     "terminalCursor.background": "#3b425280",
-    "terminalCursor.foreground": "#D8DEE9",
-    "textBlockQuote.background": "#3b4252",
-    "textBlockQuote.border": "#81a1c1",
-    "textCodeBlock.background": "#4c566a",
-    "textLink.activeForeground": "#88c0d0",
-    "textLink.foreground": "#88c0d0",
-    "textPreformat.foreground": "#8fbcbb",
-    "textSeparator.foreground": "#eceff4",
-    "titleBar.activeBackground": "#2e3440",
-    "titleBar.activeForeground": "#d8dee9",
+    "terminalCursor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "textBlockQuote.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "textBlockQuote.border": "#81A1C1", // nord-9: Frost: Bright Blue
+    "textCodeBlock.background": "#4C566A", // nord-3: Polar: Bright Grey
+    "textLink.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "textLink.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "textPreformat.foreground": "#8FBCBB", // nord-7: Frost: Bright Cyan
+    "textSeparator.foreground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "titleBar.activeBackground": "#2E3440", // nord-0: Polar: Background
+    "titleBar.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "titleBar.border": "#2e344000",
-    "titleBar.inactiveBackground": "#2e3440",
+    "titleBar.inactiveBackground": "#2E3440", // nord-0: Polar: Background
     "titleBar.inactiveForeground": "#d8dee966",
     "tree.indentGuidesStroke": "#616e88",
-    "walkThrough.embeddedEditorBackground": "#2e3440",
+    "walkThrough.embeddedEditorBackground": "#2E3440", // nord-0: Polar: Background
     "widget.shadow": "#00000066",
   },
   "tokenColors": [
@@ -334,7 +337,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#A3BE8CC0"
+        "foreground": "#6D7F5E" // drkr-F: Aurora: Darker Green
       }
     },
     {
@@ -344,7 +347,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#ECEFF4"
+        "foreground": "#ECEFF4" // nord-6: Snow Storm: Bright White
       }
     },
     {
@@ -353,7 +356,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#D8DEE9"
+        "foreground": "#D8DEE9" // nord-4: Snow Storm: Darker White
       }
     },
     {
@@ -363,7 +366,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -374,7 +377,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -405,7 +408,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -418,7 +421,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -427,7 +430,7 @@
         "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -453,7 +456,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -468,7 +471,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#A3BE8C"
+        "foreground": "#A3BE8C" // nord-E: Aurora: Bright Green
       }
     },
     {
@@ -484,7 +487,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#EBCB8B"
+        "foreground": "#EBCB8B" // nord-D: Aurora: Bright Yellow
       }
     },
     {
@@ -518,7 +521,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -528,7 +531,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#88C0D0"
+        "foreground": "#88C0D0" // nord-8: Frost: Bright Highlight
       }
     },
     {
@@ -538,7 +541,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -548,7 +551,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -557,7 +560,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -568,7 +571,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EBCB8B"
+        "foreground": "#EBCB8B" // nord-D: Aurora: Bright Yellow
       }
     },
     {
@@ -577,7 +580,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#EBCB8B"
+        "foreground": "#EBCB8B" // nord-D: Aurora: Bright Yellow
       }
     },
     {
@@ -586,7 +589,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -595,7 +598,7 @@
         "markup.inserted"
       ],
       "settings": {
-        "foreground": "#A3BE8C"
+        "foreground": "#A3BE8C" // nord-E: Aurora: Bright Green
       }
     },
     {
@@ -604,7 +607,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -613,7 +616,7 @@
         "markup.changed"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -622,7 +625,7 @@
         "string.regexp"
       ],
       "settings": {
-        "foreground": "#88C0D0"
+        "foreground": "#88C0D0" // nord-8: Frost: Bright Highlight
       }
     },
     {
@@ -631,7 +634,7 @@
         "constant.character.escape"
       ],
       "settings": {
-        "foreground": "#88C0D0"
+        "foreground": "#88C0D0" // nord-8: Frost: Bright Highlight
       }
     },
     {
@@ -653,7 +656,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -663,7 +666,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -672,7 +675,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -681,7 +684,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#EBCB8B"
+        "foreground": "#EBCB8B" // nord-D: Aurora: Bright Yellow
       }
     },
     {
@@ -690,7 +693,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D08770"
+        "foreground": "#D08770" // nord-C: Aurora: Bright Orange
       }
     },
     {
@@ -699,7 +702,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -708,7 +711,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D08770"
+        "foreground": "#D08770" // nord-C: Aurora: Bright Orange
       }
     },
     {
@@ -717,7 +720,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -726,7 +729,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -735,7 +738,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -744,7 +747,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#A3BE8C"
+        "foreground": "#A3BE8C" // nord-E: Aurora: Bright Green
       }
     },
     {
@@ -754,7 +757,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#ECEFF4"
+        "foreground": "#ECEFF4" // nord-6: Snow Storm: Bright White
       }
     },
     {
@@ -763,7 +766,7 @@
         "text.html.markdown markup.inline.raw.markdown"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -783,7 +786,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#A3BE8C"
+        "foreground": "#A3BE8C" // nord-E: Aurora: Bright Green
       }
     },
     {
@@ -793,7 +796,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -804,7 +807,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -819,7 +822,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#BF616A"
+        "foreground": "#BF616A" // nord-B: Aurora: Bright Red
       }
     },
     {
@@ -856,7 +859,7 @@
         "string.other.link.title.markdown"
       ],
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#81A1C1" // nord-9: Frost: Bright Blue
       }
     },
     {
@@ -865,7 +868,7 @@
         "string.other.link.description.title.markdown"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -874,7 +877,7 @@
         "constant.other.reference.link.markdown"
       ],
       "settings": {
-        "foreground": "#EBCB8B"
+        "foreground": "#EBCB8B" // nord-D: Aurora: Bright Yellow
       }
     },
     {
@@ -883,7 +886,7 @@
         "markup.raw.block"
       ],
       "settings": {
-        "foreground": "#B48EAD"
+        "foreground": "#B48EAD" // nord-D: Aurora: Bright Purple
       }
     },
     {
@@ -912,7 +915,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#ECEFF4"
+        "foreground": "#ECEFF4" // nord-6: Snow Storm: Bright White
       }
     },
     {
@@ -940,7 +943,7 @@
         "markup.table"
       ],
       "settings": {
-        "foreground": "#ECEFF4"
+        "foreground": "#ECEFF4" // nord-6: Snow Storm: Bright White
       }
     }
   ]
