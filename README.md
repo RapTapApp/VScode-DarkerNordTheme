@@ -63,6 +63,11 @@ In keeping with the theme I've only added 2 shades (darker/darkest) from the col
 | :------------ | :----- | ------: | ------------: | -----------------------------------------: |
 | *Polar Night* |        |         |               |                                            |
 |               | dkst-0 | #0E1014 | 220, 28%,  8% | ![dkst-0: #0E1014](docs/colors/dkst-0.svg) |
+| *Frost*       |        |         |               |                                            |
+|               | dkst-7 | #2F3D3C | 178, 23%, 24% | ![drkr-7: #2F3D3C](docs/colors/dkst-7.svg) |
+|               | dkst-8 | #2E4144 | 193, 34%, 28% | ![drkr-8: #2E4144](docs/colors/dkst-8.svg) |
+|               | dkst-9 | #2A353F | 210, 33%, 25% | ![drkr-9: #2A353F](docs/colors/dkst-9.svg) |
+|               | dkst-A | #1F2B38 | 213, 45%, 22% | ![drkr-A: #1F2B38](docs/colors/dkst-A.svg) |
 | *Aurora*      |        |         |               |                                            |
 |               | dkst-B | #3F2023 | 354, 49%, 25% | ![dkst-B: #3F2023](docs/colors/dkst-B.svg) |
 |               | dkst-C | #442C25 |  14, 46%, 27% | ![dkst-C: #442C25](docs/colors/dkst-C.svg) |
@@ -83,10 +88,10 @@ In keeping with the theme I've only added 2 shades (darker/darkest) from the col
 |               | nord-5 | ![nord-5: #E5E9F0](docs/colors/nord-5.svg) | ![drkr-5: #979A9E](docs/colors/drkr-5.svg) |                                            |
 |               | nord-6 | ![nord-6: #ECEFF4](docs/colors/nord-6.svg) | ![drkr-6: #9EA0A3](docs/colors/drkr-6.svg) |                                            |
 | *Frost*       |        |                                            |                                            |                                            |
-|               | nord-7 | ![nord-7: #8FBCBB](docs/colors/nord-7.svg) | ![drkr-7: #607C7B](docs/colors/drkr-7.svg) |                                            |
-|               | nord-8 | ![nord-8: #88C0D0](docs/colors/nord-8.svg) | ![drkr-8: #5C848C](docs/colors/drkr-8.svg) |                                            |
-|               | nord-9 | ![nord-9: #81A1C1](docs/colors/nord-9.svg) | ![drkr-9: #556A7F](docs/colors/drkr-9.svg) |                                            |
-|               | nord-A | ![nord-A: #5E81AC](docs/colors/nord-A.svg) | ![drkr-A: #3D5470](docs/colors/drkr-A.svg) |                                            |
+|               | nord-7 | ![nord-7: #8FBCBB](docs/colors/nord-7.svg) | ![drkr-7: #607C7B](docs/colors/drkr-7.svg) | ![drkr-7: #2F3D3C](docs/colors/dkst-7.svg) |
+|               | nord-8 | ![nord-8: #88C0D0](docs/colors/nord-8.svg) | ![drkr-8: #5C848C](docs/colors/drkr-8.svg) | ![drkr-8: #2E4144](docs/colors/dkst-8.svg) |
+|               | nord-9 | ![nord-9: #81A1C1](docs/colors/nord-9.svg) | ![drkr-9: #556A7F](docs/colors/drkr-9.svg) | ![drkr-9: #2A353F](docs/colors/dkst-9.svg) |
+|               | nord-A | ![nord-A: #5E81AC](docs/colors/nord-A.svg) | ![drkr-A: #3D5470](docs/colors/drkr-A.svg) | ![drkr-A: #1F2B38](docs/colors/dkst-A.svg) |
 | *Aurora*      |        |                                            |                                            |                                            |
 |               | nord-B | ![nord-B: #BF616A](docs/colors/nord-B.svg) | ![drkr-B: #7F4147](docs/colors/drkr-B.svg) | ![dkst-B: #3F2023](docs/colors/dkst-B.svg) |
 |               | nord-C | ![nord-C: #D08770](docs/colors/nord-C.svg) | ![drkr-C: #8C5A4B](docs/colors/drkr-C.svg) | ![dkst-C: #442C25](docs/colors/dkst-C.svg) |
