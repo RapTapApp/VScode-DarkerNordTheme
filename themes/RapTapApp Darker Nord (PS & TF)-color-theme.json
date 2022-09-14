@@ -3,12 +3,105 @@
   "colors": {
     // Base colors
     "descriptionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "disabledForeground": "#2E3440", // nord-0: Polar: Background
+    "disabledForeground": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
     "errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
-    "focusBorder": "#3b4252", // nord-1: Polar: Dark Grey
+    "focusBorder": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
     "foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "selection.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "icon.foreground": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
+    "sash.hoverBorder": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "selection.background": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
     "widget.shadow": "#1F232B", // drkr-0: Polar: Darker Background
+    // Text colors
+    "textBlockQuote.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "textBlockQuote.border": "#81A1C1", // nord-9: Frost: Bright Blue
+    "textCodeBlock.background": "#4C566A", // nord-3: Polar: Bright Grey
+    "textLink.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "textLink.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "textPreformat.foreground": "#8FBCBB", // nord-7: Frost: Bright Cyan
+    "textSeparator.foreground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    // Action colors
+    "toolbar.activeBackground": "#88C0D0A0", // nord-8: Frost: Bright Highlight (-38%)
+    "toolbar.hoverBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "toolbar.hoverOutline": "#0000", // none
+    // Control: Button
+    "button.background": "#88C0D060", // nord-8: Frost: Bright Highlight (-63%)
+    "button.border": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "button.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "button.hoverBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "button.secondaryBackground": "#8C5A4B", // drkr-C: Aurora: Bright Orange
+    "button.secondaryForeground": "#D8DEE9C0", // nord-4: Snow Storm: Darker White (-25%)
+    "button.secondaryHoverBackground": "#D08770C0", // nord-C: Aurora: Bright Orange (-25%)
+    "button.separator": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
+    "checkbox.background": "#5C848C", // drkr-8: Frost: Bright Highlight
+    "checkbox.border": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "checkbox.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    // Control: Drop-down
+    "dropdown.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "dropdown.listBackground": "#2E3440", // nord-0: Polar: Background
+    "dropdown.border": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "dropdown.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    // Control: Input
+    "input.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "input.border": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "input.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "input.placeholderForeground": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
+    "inputOption.activeBackground": "#88C0D0A0", // nord-8: Frost: Bright Highlight (-38%)
+    "inputOption.activeBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "inputOption.activeForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "inputOption.hoverBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "inputValidation.errorBackground": "#7F4147", // drkr-B: Aurora: Bright Red
+    "inputValidation.errorBorder": "#BF616A", // nord-B: Aurora: Bright Red
+    "inputValidation.infoBackground": "#556A7F", // drkr-9: Frost: Bright Blue
+    "inputValidation.infoBorder": "#81A1C1", // nord-9: Frost: Bright Blue
+    "inputValidation.warningBackground": "#8C5A4B", // drkr-C: Aurora: Bright Orange
+    "inputValidation.warningBorder": "#D08770", // nord-C: Aurora: Bright Orange
+    // Control: Scroll-bar
+    "scrollbar.shadow": "#1F232B", // drkr-0: Polar: Darker Background
+    "scrollbarSlider.activeBackground": "#88C0D0A0", // nord-8: Frost: Bright Highlight (-38%)
+    "scrollbarSlider.background": "#88C0D060", // nord-8: Frost: Bright Highlight (-63%)
+    "scrollbarSlider.hoverBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    // Control: Badge
+    "badge.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "badge.foreground": "#3b4252", // nord-1: Polar: Dark Grey
+    // Controls: Progress-bar
+    "progressBar.background": "#88C0D0", // nord-8: Frost: Bright Highlight
+    // List
+    "list.activeSelectionBackground": "#5C848C", // drkr-8: Frost: Bright Highlight
+    "list.activeSelectionForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "list.dropBackground": "#88C0D0C0", // nord-8: Frost: Bright Highlight (-25%)
+    "list.hoverBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "list.hoverForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "list.inactiveSelectionBackground": "#4C566A", // nord-3: Polar: Bright Grey
+    "list.inactiveSelectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "list.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
+    "list.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
+    //
+    "list.focusBackground": "#88C0D0C0", // nord-8: Frost: Bright Highlight (-25%)
+    "list.filterMatchBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    "list.filterMatchBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "list.focusAndSelectionOutline": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "list.focusForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "list.focusHighlightForeground": "#D08770", // nord-C: Aurora: Bright Orange
+    "list.highlightForeground": "#8C5A4B", // drkr-C: Aurora: Bright Orange
+    "list.inactiveFocusBackground": "#88C0D080", // nord-8: Frost: Bright Highlight (-50%)
+    // Control: Charts
+    "charts.blue": "#81A1C1", // nord-9: Frost: Bright Blue
+    "charts.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "charts.green": "#A3BE8C", // nord-E: Aurora: Bright Green
+    "charts.lines": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "charts.orange": "#D08770", // nord-C: Aurora: Bright Orange
+    "charts.purple": "#B48EAD", // nord-D: Aurora: Bright Purple
+    "charts.red": "#BF616A", // nord-B: Aurora: Bright Red
+    "charts.yellow": "#EBCB8B", // nord-D: Aurora: Bright Yellow
+    //
+    "breadcrumb.background": "#3b4252", // nord-1: Polar: Dark Grey
+    "tree.indentGuidesStroke": "#616e88",
+    //
+    "titleBar.activeBackground": "#2E3440", // nord-0: Polar: Background
+    "titleBar.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "titleBar.border": "#0000", // none
+    "titleBar.inactiveBackground": "#2E3440", // nord-0: Polar: Background
+    "titleBar.inactiveForeground": "#D8DEE980", // nord-4: Snow Storm: Darker White (-50%)
     // ActivityBar
     "activityBar.activeBackground": "#5C848C", // drkr-8: Frost: Bright Highlight
     "activityBar.activeBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
@@ -19,35 +112,8 @@
     "activityBar.inactiveForeground": "#90949B", // drkr-4: Snow Storm: Darker White
     "activityBarBadge.background": "#88C0D0", // nord-8: Frost: Bright Highlight
     "activityBarBadge.foreground": "#3b4252", // nord-1: Polar: Dark Grey
-    // Controls: Badge
-    "badge.background": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "badge.foreground": "#3b4252", // nord-1: Polar: Dark Grey
-    // Controls: Button
-    "button.background": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "button.foreground": "#3b4252", // nord-1: Polar: Dark Grey
-    "button.hoverBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "button.secondaryBackground": "#3b4252", // nord-1: Polar: Dark Grey
-    "button.secondaryForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "button.secondaryHoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
-    "button.separator": "#90949B",
-    "button.border": "#9EA0A3",
-    // Controls: Charts
-    "charts.blue": "#81A1C1", // nord-9: Frost: Bright Blue
-    "charts.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "charts.green": "#A3BE8C", // nord-E: Aurora: Bright Green
-    "charts.lines": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "charts.orange": "#D08770", // nord-C: Aurora: Bright Orange
-    "charts.purple": "#B48EAD", // nord-D: Aurora: Bright Purple
-    "charts.red": "#BF616A", // nord-B: Aurora: Bright Red
-    "charts.yellow": "#EBCB8B", // nord-D: Aurora: Bright Yellow
-    // Controls: Drop-down
-    "dropdown.background": "#3b4252", // nord-1: Polar: Dark Grey
-    "dropdown.listBackground": "#2E3440", // nord-0: Polar: Background
-    "dropdown.border": "#3b4252", // nord-1: Polar: Dark Grey
-    "dropdown.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    // Controls: 
-    "breadcrumb.background": "#3b4252", // nord-1: Polar: Dark Grey
-    //
+    // Editor: BreadCrumb
+    // Editor: StickyScroll
     "editorStickyScrollHover.background": "#4C566A", // nord-3: Polar: Bright Grey
     "editorStickyScroll.background": "#3b4252", // nord-1: Polar: Dark Grey
     // Debug
@@ -72,22 +138,19 @@
     "diffEditorOverview.insertedForeground": "#6D7F5E", // drkr-F: Aurora: Darker Green
     "diffEditorOverview.removedForeground": "#7F4147", // drkr-B: Aurora: Darker Red
     // Editor
-    "editor.background": "#16181d",
-    "editor.findMatchBackground": "#88c0d066",
-    "editor.findMatchHighlightBackground": "#88c0d033",
-    "editor.findRangeHighlightBackground": "#88c0d033",
-    "editor.focusedStackFrameHighlightBackground": "#5E81AC", // nord-A: Frost: Dark Blue
+    "editor.background": "#0E1014", // dkst-0: Polar: Background
     "editor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    // Text states
     "editor.hoverHighlightBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.inactiveSelectionBackground": "#3b4252", // nord-1: Polar: Dark Grey
-    "editor.inlineValuesBackground": "#4C566A", // nord-3: Polar: Bright Grey
-    "editor.inlineValuesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
     "editor.lineHighlightBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.lineHighlightBorder": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.rangeHighlightBackground": "#434c5e52",
+    "editor.findMatchBackground": "#88c0d066",
+    "editor.findMatchHighlightBackground": "#88c0d033",
+    "editor.findRangeHighlightBackground": "#88c0d033",
     "editor.selectionBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "editor.selectionHighlightBackground": "#434c5ecc",
-    "editor.stackFrameHighlightBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     "editor.wordHighlightBackground": "#81a1c166",
     "editor.wordHighlightStrongBackground": "#81a1c199",
     //
@@ -100,35 +163,56 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#BF616A", // nord-B: Aurora: Bright Red
     "editorBracketMatch.background": "#2e344000",
     "editorBracketMatch.border": "#88C0D0", // nord-8: Frost: Bright Highlight
+    //
+    "editor.inlineValuesBackground": "#4C566A", // nord-3: Polar: Bright Grey
+    "editor.inlineValuesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    "editor.focusedStackFrameHighlightBackground": "#5E81AC", // nord-A: Frost: Dark Blue
+    "editor.stackFrameHighlightBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    //
     "editorCodeLens.foreground": "#5E81AC", // nord-A: Frost: Dark Blue
+    //
     "editorCursor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editorWhitespace.foreground": "#4c566ab3",
+    //
+    "editorWidget.background": "#2E3440", // nord-0: Polar: Background
+    "editorWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    // Editor:
     "editorError.border": "#bf616a00",
     "editorError.foreground": "#BF616A", // nord-B: Aurora: Bright Red
-    "editorGroup.border": "#3b425201",
-    "editorGroup.dropBackground": "#3b425299",
-    "editorGroupHeader.border": "#3b425200",
+    "editorWarning.border": "#ebcb8b00",
+    "editorWarning.foreground": "#D08770", // nord-C: Aurora: Bright Orange
+    // Editor: Group
+    "editorGroup.border": "#2E344080", // nord-0: Polar: Background (semi-transparent)
+    "editorGroup.dropBackground": "#2E344080",
+    "editorGroupHeader.border": "#2E344080", // nord-0: Polar: Background (semi-transparent)
     "editorGroupHeader.noTabsBackground": "#2E3440", // nord-0: Polar: Background
     "editorGroupHeader.tabsBackground": "#2E3440", // nord-0: Polar: Background
-    "editorGroupHeader.tabsBorder": "#3b425200",
-    //
+    "editorGroupHeader.tabsBorder": "#0000", // none
+    // Editor: Gutter
     "editorGutter.addedBackground": "#6D7F5E", // drkr-F: Aurora: Darker Green
     "editorGutter.background": "#2E3440", // nord-0: Polar: Background
     "editorGutter.deletedBackground": "#7F4147", // drkr-B: Aurora: Darker Red
     "editorGutter.modifiedBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    // Editor: LineNumber
+    "editorLineNumber.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    "editorLineNumber.foreground": "#4C566A", // nord-3: Polar: Bright Grey
+    //
     "editorHint.border": "#ebcb8b00",
     "editorHint.foreground": "#9B865D", // drkr-D: Aurora: Darker Yellow
+    //
     "editorHoverWidget.background": "#3b4252", // nord-1: Polar: Dark Grey
     "editorHoverWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    //
     "editorIndentGuide.activeBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "editorIndentGuide.background": "#434c5eb3",
     "editorInlayHint.background": "#434C5E", // nord-2: Polar: Grey
     "editorInlayHint.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "editorLineNumber.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "editorLineNumber.foreground": "#4C566A", // nord-3: Polar: Bright Grey
     "editorLink.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    //
     "editorMarkerNavigation.background": "#5e81acc0",
     "editorMarkerNavigationError.background": "#7F4147", // drkr-B: Aurora: Darker Red
     "editorMarkerNavigationWarning.background": "#8C5A4B", // drkr-C: Aurora: Darker Orange
+    // Editor: OverviewRuler (minimap)
     "editorOverviewRuler.addedForeground": "#A3BE8C", // nord-E: Aurora: Bright Green
     "editorOverviewRuler.border": "#3b4252", // nord-1: Polar: Dark Grey
     "editorOverviewRuler.currentContentForeground": "#3b4252", // nord-1: Polar: Dark Grey
@@ -143,6 +227,7 @@
     "editorOverviewRuler.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
     "editorOverviewRuler.wordHighlightForeground": "#88c0d066",
     "editorOverviewRuler.wordHighlightStrongForeground": "#88c0d066",
+    // Editor: Ruler (column)
     "editorRuler.foreground": "#434C5E", // nord-2: Polar: Grey
     "editorSuggestWidget.background": "#2E3440", // nord-0: Polar: Background
     "editorSuggestWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
@@ -151,14 +236,11 @@
     "editorSuggestWidget.highlightForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "editorSuggestWidget.selectedBackground": "#434C5E", // nord-2: Polar: Grey
     "editorSuggestWidget.selectedForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "editorWarning.border": "#ebcb8b00",
-    "editorWarning.foreground": "#D08770", // nord-C: Aurora: Bright Orange
-    "editorWhitespace.foreground": "#4c566ab3",
-    "editorWidget.background": "#2E3440", // nord-0: Polar: Background
-    "editorWidget.border": "#3b4252", // nord-1: Polar: Dark Grey
+    //
     "extensionButton.prominentBackground": "#434C5E", // nord-2: Polar: Grey
     "extensionButton.prominentForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "extensionButton.prominentHoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
+    //
     "gitDecoration.conflictingResourceForeground": "#5E81AC", // nord-A: Frost: Dark Blue
     "gitDecoration.deletedResourceForeground": "#BF616A", // nord-B: Aurora: Bright Red
     "gitDecoration.ignoredResourceForeground": "#d8dee966",
@@ -167,39 +249,13 @@
     "gitDecoration.stageModifiedResourceForeground": "#EBCB8B", // nord-D: Aurora: Bright Yellow
     "gitDecoration.submoduleResourceForeground": "#8FBCBB", // nord-7: Frost: Bright Cyan
     "gitDecoration.untrackedResourceForeground": "#A3BE8C", // nord-E: Aurora: Bright Green
-    "input.background": "#3b4252", // nord-1: Polar: Dark Grey
-    "input.border": "#3b4252", // nord-1: Polar: Dark Grey
-    "input.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "input.placeholderForeground": "#d8dee999",
-    "inputOption.activeBackground": "#5E81AC", // nord-A: Frost: Dark Blue
-    "inputOption.activeBorder": "#5E81AC", // nord-A: Frost: Dark Blue
-    "inputOption.activeForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
-    "inputValidation.errorBackground": "#BF616A", // nord-B: Aurora: Bright Red
-    "inputValidation.errorBorder": "#BF616A", // nord-B: Aurora: Bright Red
-    "inputValidation.infoBackground": "#81A1C1", // nord-9: Frost: Bright Blue
-    "inputValidation.infoBorder": "#81A1C1", // nord-9: Frost: Bright Blue
-    "inputValidation.warningBackground": "#D08770", // nord-C: Aurora: Bright Orange
-    "inputValidation.warningBorder": "#D08770", // nord-C: Aurora: Bright Orange
+    //
     "keybindingLabel.background": "#4C566A", // nord-3: Polar: Bright Grey
     "keybindingLabel.border": "#4C566A", // nord-3: Polar: Bright Grey
     "keybindingLabel.bottomBorder": "#4C566A", // nord-3: Polar: Bright Grey
     "keybindingLabel.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "list.activeSelectionBackground": "#88c0d080",
-    "list.activeSelectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "list.dropBackground": "#88c0d099",
-    "list.errorForeground": "#BF616A", // nord-B: Aurora: Bright Red
-    "list.focusBackground": "#88c0d099",
-    "list.focusForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "list.focusHighlightForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
-    "list.highlightForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "list.hoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
-    "list.hoverForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
-    "list.inactiveFocusBackground": "#434c5ecc",
-    "list.inactiveSelectionBackground": "#434C5E", // nord-2: Polar: Grey
-    "list.inactiveSelectionForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "list.warningForeground": "#D08770", // nord-C: Aurora: Bright Orange
     // Merge
-    "merge.border": "#3b425200",
+    "merge.border": "#0E1014", // dkst-0: Polar: Background
     "merge.currentContentBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     "merge.currentHeaderBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     "merge.incomingContentBackground": "#775E73", // drkr-F: Aurora: Darker Purple
@@ -217,19 +273,21 @@
     "minimapSlider.background": "#434c5e99",
     "minimapSlider.hoverBackground": "#434c5eaa",
     // Notification
-    "notificationCenter.border": "#3b425200",
+    "notificationCenter.border": "#0E1014", // dkst-0: Polar: Background
     "notificationCenterHeader.background": "#2E3440", // nord-0: Polar: Background
     "notificationCenterHeader.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "notificationLink.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "notifications.background": "#3b4252", // nord-1: Polar: Dark Grey
     "notifications.border": "#2E3440", // nord-0: Polar: Background
     "notifications.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "notificationToast.border": "#3b425200",
+    "notificationToast.border": "#0E1014", // dkst-0: Polar: Background
+    // panel
     "panel.background": "#2E3440", // nord-0: Polar: Background
     "panel.border": "#3b4252", // nord-1: Polar: Dark Grey
     "panelTitle.activeBorder": "#88c0d000",
     "panelTitle.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "panelTitle.inactiveForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    // peekView
     "peekView.border": "#4C566A", // nord-3: Polar: Bright Grey
     "peekViewEditor.background": "#2E3440", // nord-0: Polar: Background
     "peekViewEditor.matchHighlightBackground": "#88c0d04d",
@@ -243,23 +301,21 @@
     "peekViewTitle.background": "#3b4252", // nord-1: Polar: Dark Grey
     "peekViewTitleDescription.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "peekViewTitleLabel.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    //
     "pickerGroup.border": "#3b4252", // nord-1: Polar: Dark Grey
     "pickerGroup.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "progressBar.background": "#88C0D0", // nord-8: Frost: Bright Highlight
     "quickInputList.focusBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "quickInputList.focusForeground": "#2E3440", // nord-0: Polar: Background
-    "sash.hoverBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "scrollbarSlider.activeBackground": "#434c5eaa",
-    "scrollbarSlider.background": "#434c5e99",
-    "scrollbarSlider.hoverBackground": "#434c5eaa",
+    // sideBar
     "sideBar.background": "#2E3440", // nord-0: Polar: Background
     "sideBar.border": "#3b4252", // nord-1: Polar: Dark Grey
     "sideBar.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "sideBarSectionHeader.background": "#3b4252", // nord-1: Polar: Dark Grey
     "sideBarSectionHeader.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "sideBarTitle.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
+    // statusBar
     "statusBar.background": "#6a758f",
-    "statusBar.border": "#3b425200",
+    "statusBar.border": "#0E1014", // dkst-0: Polar: Background
     "statusBar.debuggingBackground": "#EBCB8BA0",
     "statusBar.debuggingForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "statusBar.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
@@ -279,11 +335,12 @@
     "statusBarItem.remoteForeground": "#3b4252", // nord-1: Polar: Dark Grey
     "statusBarItem.settingsProfilesBackground": "#ECEFF440",
     "statusBarItem.settingsProfilesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
+    // tab
     "tab.activeBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "tab.activeBorder": "#88c0d000",
     "tab.activeBorderTop": "#88c0d000",
     "tab.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "tab.border": "#3b425200",
+    "tab.border": "#0E1014", // dkst-0: Polar: Background
     "tab.hoverBackground": "#4C566A", // nord-3: Polar: Bright Grey
     "tab.hoverBorder": "#88c0d000",
     "tab.hoverForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
@@ -315,29 +372,17 @@
     "terminal.ansiWhite": "#9EA0A3", // drkr-6: Snow Storm: Bright White
     "terminal.ansiYellow": "#9B865D", // drkr-D: Aurora: Darker Yellow
     // terminal:
-    "terminal.background": "#0E1014",
+    "terminal.background": "#0E1014", // dkst-0: Polar: Background
     "terminal.border": "#4C566A", // nord-3: Polar: Bright Grey
     "terminal.dropBackground": "#88C0D0", // nord-8: Frost: Bright Highlight
     "terminal.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     "terminal.tab.activeBorder": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "terminalCommandDecoration.defaultBackground": "#16181d",
+    "terminalCommandDecoration.defaultBackground": "#0E1014", // dkst-0: Polar: Background
     "terminalCommandDecoration.errorBackground": "#BF616A", // nord-B: Aurora: Bright Red
     "terminalCommandDecoration.successBackground": "#A3BE8C", // nord-E: Aurora: Bright Green
     "terminalCursor.background": "#3b425280",
     "terminalCursor.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "textBlockQuote.background": "#3b4252", // nord-1: Polar: Dark Grey
-    "textBlockQuote.border": "#81A1C1", // nord-9: Frost: Bright Blue
-    "textCodeBlock.background": "#4C566A", // nord-3: Polar: Bright Grey
-    "textLink.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "textLink.foreground": "#88C0D0", // nord-8: Frost: Bright Highlight
-    "textPreformat.foreground": "#8FBCBB", // nord-7: Frost: Bright Cyan
-    "textSeparator.foreground": "#ECEFF4", // nord-6: Snow Storm: Bright White
-    "titleBar.activeBackground": "#2E3440", // nord-0: Polar: Background
-    "titleBar.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "titleBar.border": "#2e344000",
-    "titleBar.inactiveBackground": "#2E3440", // nord-0: Polar: Background
-    "titleBar.inactiveForeground": "#d8dee966",
-    "tree.indentGuidesStroke": "#616e88",
+    //
     "walkThrough.embeddedEditorBackground": "#2E3440", // nord-0: Polar: Background
   },
   "tokenColors": [
