@@ -1,7 +1,12 @@
 {
-  "name": "raptapapp-darkernord",
-  "displayName": "RapTapApp-DarkerNord",
-  "description": "Colortheme based on the Nord theme, but darker and with semantic highlightinhting  for  PowerShell & Terraform ",
+  "name": "darkernord",
+  "displayName": "RapTapApp: Darker Nord (PS & TF)",
+  "description": "RapTapApp presents a darker colortheme based on the Nord theme, with semantic highlightinhting for PowerShell & Terraform",
+  "author": {
+    "name": "RapTapApp",
+    "email": "cees.vstheme@raptapapp.com",
+    "url": "https://github.com/RapTapApp/VScode-DarkerNordTheme"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.71.0"
@@ -14,7 +19,7 @@
       {
         "label": "RapTapApp: Darker Nord (PS & TF)",
         "uiTheme": "vs-dark",
-        "path": "./themes/RapTapApp Darker Nord (PS & TF)-color-theme.json"
+        "path": "./themes/DarkerNord-color-theme.json"
       }
     ]
   }
