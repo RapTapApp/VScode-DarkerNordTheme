@@ -201,8 +201,8 @@
     "editorGutter.deletedBackground": "#7F4147", // drkr-B: Aurora: Darker Red
     "editorGutter.modifiedBackground": "#9B865D", // drkr-D: Aurora: Darker Yellow
     // Editor: LineNumber
-    "editorLineNumber.activeForeground": "#D8DEE9", // nord-4: Snow Storm: Darker White
-    "editorLineNumber.foreground": "#4C566A", // nord-3: Polar: Bright Grey
+    "editorLineNumber.activeForeground": "#88C0D0", // nord-8: Frost: Bright Highlight
+    "editorLineNumber.foreground": "#D8DEE9", // nord-4: Snow Storm: Darker White
     //
     "editorHint.border": "#ebcb8b00",
     "editorHint.foreground": "#9B865D", // drkr-D: Aurora: Darker Yellow
@@ -340,8 +340,6 @@
     "statusBarItem.prominentForeground": "#ECEFF440",
     "statusBarItem.remoteBackground": "#A3BE8C", // nord-E: Aurora: Bright Green
     "statusBarItem.remoteForeground": "#3b4252", // nord-1: Polar: Dark Grey
-    "statusBarItem.settingsProfilesBackground": "#ECEFF440",
-    "statusBarItem.settingsProfilesForeground": "#ECEFF4", // nord-6: Snow Storm: Bright White
     // tab
     "tab.activeBackground": "#3b4252", // nord-1: Polar: Dark Grey
     "tab.activeBorder": "#88c0d000",
